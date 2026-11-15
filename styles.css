@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.header-temporal {
+    background: #1e293b;
+    border-bottom: 3px solid #38bdf8;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.badge {
+    background-color: rgba(56, 189, 248, 0.2);
+    border: 1px solid #38bdf8;
+    border-radius: 20px;
+    color: #38bdf8;
+    display: inline-block;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+    padding: 0.3rem 1rem;
+}
+
+.header-temporal h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.contenedor-principal {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 1.5rem 1rem;
+}
+
+h2 {
+    border-left: 4px solid #38bdf8;
+    color: #38bdf8;
+    margin: 1.5rem 0 1rem 0;
+    padding-left: 0.75rem;
+}
+
+.tarjeta-concepto {
+    background-color: #1e293b;
+    border-radius: 10px;
+    border-top: 4px solid #64748b;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.tarjeta-concepto.geografia { border-top-color: #10b981; }
+.tarjeta-concepto.historia { border-top-color: #f59e0b; }
+.tarjeta-concepto.encuentro { border-top-color: #8b5cf6; }
+
+.panel-puntaje {
+    background-color: #1e293b;
+    border: 2px solid #38bdf8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+
+.card-pregunta {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    margin-bottom: 1.25rem;
+    padding: 1.25rem;
+}
+
+.etiqueta-categoria {
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0.2rem 0.6rem;
+    text-transform: uppercase;
+}
+
+.cat-historia { background-color: #78350f; color: #fde68a; }
+.cat-geografia { background-color: #064e3b; color: #a7f3d0; }
+.cat-ciencias { background-color: #4c1d95; color: #ddd6fe; }
+
+.texto-pregunta {
+    font-size: 1.05rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.opciones-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.btn-opcion {
+    background-color: #0f172a;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    color: #f8fafc;
+    cursor: pointer;
+    font-size: 0.95rem;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.btn-opcion:hover:not(:disabled) {
+    background-color: #334155;
+    border-color: #38bdf8;
+}
+
+.btn-opcion.correcta {
+    background-color: #065f46;
+    border-color: #10b981;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-opcion.incorrecta {
+    background-color: #7f1d1d;
+    border-color: #ef4444;
+    color: #ffffff;
+}
+
+.feedback-box {
+    background-color: #0f172a;
+    border-left: 4px solid #38bdf8;
+    border-radius: 6px;
+    display: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    padding: 0.75rem;
+}
+
+.btn-reiniciar {
+    background-color: #0284c7;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+.footer-temporal {
+    color: #64748b;
+    padding: 2rem 1rem;
+    text-align: center;
+}

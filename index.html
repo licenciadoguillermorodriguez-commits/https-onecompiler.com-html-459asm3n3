@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajeros del Tiempo: El Desafío Global</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header-temporal">
+        <span class="badge">🚀 Rango: Explorador Temporal</span>
+        <h1>🎮 Viajeros del Tiempo: El Desafío Global</h1>
+        <p class="meta-info"><strong>Tema:</strong> Geografía, Historia Universal y Ciencias</p>
+        <p class="objetivo"><strong>Misión:</strong> Supera las 15 preguntas para restaurar el Cronorreloj Universal.</p>
+    </header>
+
+    <main class="contenedor-principal">
+        <section id="contenido" class="seccion-lectura">
+            <h2>📖 Aprendé antes de jugar</h2>
+            <div class="tarjeta-concepto geografia">
+                <h3>🌍 ¿Qué es la Geografía?</h3>
+                <p>Es la ciencia que estudia dónde están las cosas en la Tierra, usando mapas y coordenadas.</p>
+            </div>
+            <div class="tarjeta-concepto historia">
+                <h3>⏳ ¿Qué es la Historia?</h3>
+                <p>Es el viaje en el tiempo que nos cuenta cómo vivían las personas y civilizaciones del pasado.</p>
+            </div>
+            <div class="tarjeta-concepto encuentro">
+                <h3>🔬 Ciencias y el punto de encuentro</h3>
+                <p>Las grandes civilizaciones crecieron cerca de recursos naturales aplicando ciencia y astronomía.</p>
+            </div>
+        </section>
+
+        <section id="zona-trivia">
+            <h2>🕹️ ¡El Gran Reto Trivia (15 Preguntas)!</h2>
+            
+            <div class="panel-puntaje">
+                <span>🏆 Puntaje: <strong id="marcador">0</strong> / 15</span>
+                <button type="button" id="btn-reiniciar" class="btn-reiniciar">🔄 Reiniciar</button>
+            </div>
+
+            <!-- Aquí el DOM inyectará las 15 preguntas automáticamente -->
+            <div id="contenedor-preguntas"></div>
+        </section>
+    </main>
+
+    <footer class="footer-temporal">
+        <p>© 2026 Viajeros del Tiempo - Proyecto Educativo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
